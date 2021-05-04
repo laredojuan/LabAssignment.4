@@ -11,7 +11,7 @@ class Login {
         const passwordInput = document.getElementById('password');
         let username = usernameInput.value;
         let password = passwordInput.value; 
-        if(username === 'cleon' && password === 'abc123') {
+        if(username === 'laredo' && password === 'abc123') {
             this.goToHome();
         } else {
             this.displayError();
